@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Replica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="navbar-logo">
+            <a href="#">Reddit</a>
+        </div>
+        <div class="navbar-search">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="navbar-actions">
+            <a href="#">Log In</a>
+            <a href="#" class="signup-btn">Sign Up</a>
+        </div>
+    </header>
+
+    <!-- Sidebar & Feed -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">All</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Feed -->
+        <main class="feed">
+            <div class="feed-card">
+                <div class="post-info">
+                    <span class="post-votes">⬆ 123</span>
+                    <span class="post-title">Example Post Title 1</span>
+                </div>
+                <div class="post-body">
+                    <p>This is a brief description of the post content. It can be longer if necessary...</p>
+                </div>
+            </div>
+            <div class="feed-card">
+                <div class="post-info">
+                    <span class="post-votes">⬆ 456</span>
+                    <span class="post-title">Example Post Title 2</span>
+                </div>
+                <div class="post-body">
+                    <p>Another post with some details here...</p>
+                </div>
+            </div>
+            <!-- Add more feed-card divs for more posts -->
+        </main>
+    </div>
+</body>
+</html>
